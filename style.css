@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.up-hero,.up-para{
+    padding-top: 5px;
+}
+.up-hero{
+    font-family: "Kausan",cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+nav,ul,li{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(23, 122, 89);
+}
+li{
+    display: inline;
+    border-right: 2px solid white;
+}
+li:last-child{
+    border:none;
+}
+.up-para{
+    
+}
+.up-section .up-down{
+    display: flex;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+.up-para-margin{
+    padding:25px;
+}
+.up-image{
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* css for todays class */
+
