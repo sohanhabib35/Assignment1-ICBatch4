@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and favicon -->
+    <title>Sohan's Academy- Registration Form</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- My external css file -->
+    <link rel="stylesheet" href="style-registration.css" type="text/css">
+
+    <!-- This section is for google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="form-main">
+
+        <!-- form start from here -->
+        <form action="#" method="get" class="form-original">
+            <fieldset class="form-fieldset">
+                <!-- This is for the upper title -->
+                <legend>GIVE INFO, LEARN WEB DEVELOPMENT</legend><br>
+
+                <fieldset>
+                    <legend>General Information</legend>
+                    <!-- User name input -->
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" value="" required>
+
+                    <!-- User birthdate -->
+                    <label for="birth"> Your Birthdate</label>
+                    <input type="date" name="birth" id="birth" required><br><br>
+
+                    <!-- User age -->
+                    <label for="age"> Your Age</label>
+                    <input type="number" id="age" name="age">
+
+                    <!-- User location -->
+                    <label for="location"> Your Location</label>
+                    <select name="location" id="location">
+                        <option value="Rangpur" selected>Rangpur</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Barishal">Barishal</option>
+                        <option value="Khulna" disabled>Khulna</option>
+                        <option value="Other place">Other Place</option>
+                    </select><br>
+                </fieldset><br><br>
+
+                <fieldset>
+                    <legend>User feedback</legend>
+
+                    <!-- User laptop -->
+                    <p>Do you any personal computer?</p>
+                    <input type="radio" id="laptop1" name="laptop" value="Yes!">
+                    <label for="laptop1">Yes!</label>
+                    <input type="radio" id="laptop2" name="laptop" value="No">
+                    <label for="laptop2">No</label><br><br>
+
+                    <!-- User choice -->
+                    <p>Why do you want to learn web development?</p>
+                    <input type="checkbox" name="choice" id="choice" checked>
+                    <label for="choice">I love technology</label><br>
+                    <input type="checkbox" name="choice" id="choice1">
+                    <label for="choice1">I want to earn money</label><br>
+                    <input type="checkbox" name="choice" id="choice2">
+                    <label for="choice2">web development is fun</label><br>
+                    <input type="checkbox" name="choice" id="choice3">
+                    <label for="choice3">hudai</label><br><br>
+
+                    <!-- opinion -->
+                    <label for="text">Any other words that you want to share</label><br>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </fieldset><br><br>
+
+                <!-- Submit and others -->
+                <button type="submit">Submit Form</button>
+                <button type="reset">Reset All</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
